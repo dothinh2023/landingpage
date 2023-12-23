@@ -244,7 +244,11 @@ img {
 }
 
 /*=============== HOME ===============*/
-
+.home__container {
+  position: relative;
+  left: 3rem;
+  top: 3rem;
+}
 .glass {
   position: relative;
   top: 10rem;
@@ -370,9 +374,11 @@ img {
 
 /*=============== VACUUM CLEANERS ===============*/
 
-#vacuum__title{
+.specs h2{
   position: relative;
-  bottom: 14rem;
+  align-items: center;
+  justify-content: center;
+  top: -15rem;
   color: var(--white-color);
   font-family: 'dyson';
 }
