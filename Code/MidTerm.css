@@ -344,14 +344,6 @@ img {
   align-items: center;
 }
 /*=============== TESTIMONIAL ===============*/
-.aboutus {
-  position: absolute;
-  left: 20rem;
-  align-items: center;
-  justify-content: center;
-
-}
-
 .aboutus h2{
   position: relative;
   top: -4rem;
@@ -359,28 +351,28 @@ img {
   font-family: 'dyson';
 }
 
-.h1{
+.aboutus .h1{
   position: relative;
   top: 8rem;
-  left: -8rem;
+  left: 10rem;
   font-size: 45px;
   font-family: 'dyson';
   font-weight: bold;
 }
 
-.h2{
+.aboutus .h2{
   position: relative;
   top: 4.5rem;
-  left: 25rem;
+  left: 45rem;
   font-size: 45px;
   font-family: 'dyson';
   font-weight: bold;
 }
 
-.h3{
+.aboutus .h3{
   position: relative;
-  top: 1.5rem;
-  left: 68rem;
+  top: 1rem;
+  left: 90rem;
   font-size: 45px;
   font-family: 'dyson';
   font-weight: bold;
@@ -396,25 +388,16 @@ img {
   column-gap: 20px;
 }
 
-.n1__img {
+.aboutus .n1__img {
   position: relative;
   size: 30px;
   max-width: 20rem;
   max-height: 20rem;
-  left: -9rem;
+  left: 10rem;
   top: 2rem;
 }
 
-.n2__img {
-  position: relative;
-  size: 30px;
-  max-width: 20rem;
-  max-height: 20rem;
-  left: 11rem;
-  top: 2rem;
-}
-
-.n3__img {
+.aboutus .n2__img {
   position: relative;
   size: 30px;
   max-width: 20rem;
@@ -422,6 +405,16 @@ img {
   left: 30rem;
   top: 2rem;
 }
+
+.aboutus .n3__img {
+  position: relative;
+  size: 30px;
+  max-width: 20rem;
+  max-height: 20rem;
+  left: 52rem;
+  top: 2rem;
+}
+
 
 /*=============== ABOUT US ===============*/
 .about h1 {
