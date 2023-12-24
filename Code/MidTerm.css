@@ -344,6 +344,13 @@ img {
   align-items: center;
 }
 /*=============== TESTIMONIAL ===============*/
+.aboutus {
+  position: absolute;
+  left: 20rem;
+  align-items: center;
+  justify-content: center;
+
+}
 
 .aboutus h2{
   position: relative;
@@ -355,7 +362,7 @@ img {
 .h1{
   position: relative;
   top: 8rem;
-  left: 9rem;
+  left: -8rem;
   font-size: 45px;
   font-family: 'dyson';
   font-weight: bold;
@@ -364,7 +371,7 @@ img {
 .h2{
   position: relative;
   top: 4.5rem;
-  left: 40rem;
+  left: 25rem;
   font-size: 45px;
   font-family: 'dyson';
   font-weight: bold;
@@ -373,7 +380,7 @@ img {
 .h3{
   position: relative;
   top: 1.5rem;
-  left: 86rem;
+  left: 68rem;
   font-size: 45px;
   font-family: 'dyson';
   font-weight: bold;
@@ -394,7 +401,7 @@ img {
   size: 30px;
   max-width: 20rem;
   max-height: 20rem;
-  left: 8rem;
+  left: -9rem;
   top: 2rem;
 }
 
@@ -403,7 +410,7 @@ img {
   size: 30px;
   max-width: 20rem;
   max-height: 20rem;
-  left: 26rem;
+  left: 11rem;
   top: 2rem;
 }
 
@@ -412,7 +419,7 @@ img {
   size: 30px;
   max-width: 20rem;
   max-height: 20rem;
-  left: 48rem;
+  left: 30rem;
   top: 2rem;
 }
 
