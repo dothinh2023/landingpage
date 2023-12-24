@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <!--=============== REMIXICON ===============-->
+         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <!--=============== ICON ===============-->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">  
+        <!--=============== FAVICON ===============-->
+        <link rel="icon" href="Code/ProductImage/favicon.png" type="image/x-icon">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="Code/MidTerm.css">
+
+        <title>Dyson landing page</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">dyson</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about us" class="nav__link">About us</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Products</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contacts" class="nav__link">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <section class="home section" id="home">
+                <div>
+                    <video autoplay loop muted plays-inline id="home__video">
+                         <source src="Code/ProductImage/HomeVIdeo.mp4" type="video/mp4">
+                        </video>
+                </div>
+                <div class="home__container container grid">
+                    <span class="glass"></span>                  
+                    <div class="home__data">
+                        <div class="home__header">
+                            <h1 class="home__title">dyson <br> VACUUM CLEANERS.</h1>
+                        </div>
+
+                        <div class="home__footer">
+                            <h3 class="home__title-description">Get a dyson vacuum today,<br> keep your household clean and tidy.</h3>
+                            <a href="https://www.dyson.co.uk/vacuum-cleaners" target="_blank" class="button button--flex">
+                                <span class="button--flex">
+                                    <i class="homebutton"></i></i> Learn more
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--=============== TESTIMONIAL ===============-->
+            <section class="testimonial section">
+                <h2 class="section__title section__title-gradient products__line" id="testimonial__title">Dyson vacuums are presence in over 65 countries !</h2>
+                <div class="testimonial__container container grid">
+                    <img src="Code/ProductImage/UK.png" alt="" class="testimonial__img">
+                    <img src="Code/ProductImage/us.png" alt="" class="testimonial__img">
+                    <img src="Code/ProductImage/ca.png" alt="" class="testimonial__img">
+                    <img src="Code/ProductImage/au.png" alt="" class="testimonial__img">
+                    <img src="Code/ProductImage/fr.jpg" alt="" class="testimonial__img">
+                    <img src="Code/ProductImage/jp.png" alt="" class="testimonial__img">
+                    <img src="Code/ProductImage/th.jpg" alt="" class="testimonial__img">
+                    <img src="Code/ProductImage/in.png" alt="" class="testimonial__img">
+                    <img src="Code/ProductImage/sg.png" alt="" class="testimonial__img">
+                </div>
+            </section>
+            <!--=============== ABOUT US ===============-->
+            <section class="aboutus" id="about__us">
+                <div class="about">
+                    <div class="inner-section">
+                        <h1>About Us</h1>
+                        <p class="text">
+                            Dyson is a brand well-known for its innovative household appliances throughout europes and americas.
+                            We've earned this reputation thanks to our never ending researches and endless improvements.
+                            Dyson aims to keep its place as a well known household brand among you and your family,
+                            with the help of our engineers great problem solving skills and the creativity of our founder,
+                            James Dyson himself. 
+                        </p>
+                        <a href="https://www.lb.dyson.com/en-LB/community/aboutdyson.aspx" target="_blank" class="skills">
+                            <button>Learn more</button>
+                        </a>
+                    </div>
+                    <image src="Code/ProductImage/aboutus1.jpg" class="about__img"></image> 
+                    <image src="Code/ProductImage/aboutus2.jpg" class="about1__img"></image> 
+                </div>
+            </section>
+            <!--=============== VACUUMS ===============-->
+            <section class="specs section grid" id="products">
+                <div>
+                    <video autoplay loop muted plays-inline id="vacuum__video">
+                        <source src="Code/ProductImage/VacuumCleaners.mp4" type="video/mp4">
+                    </video>     
+                </div> 
+                <div class="specs__container">
+                    <h2 class="section__title section__title-gradient" id="vacuum__title">Vacuum cleaners</h2>
+                    <div class="specs__content">
+                           <div class="specs__title">Cordless</div>       
+                           <div class="specs__title">Versatile</div>  
+                           <div class="specs__title">Handy</div>  
+                           <div class="specs__title">Bagless</div>  
+                    </div>             
+                </div>
+            </section>
+
+            <!--=============== PRODUCTS ===============-->
+                    <section class="vacuum" id="product__vacuum">
+
+                        <h2 class="section__title section__title-gradient products__line" id="product__title">Choose your vacuum</h2>
+
+                       <div class="vacuum_products">
+
+                          <div class="products__content" data-name="V7">
+                            <image src="Code/ProductImage/V7Vacuum1.png" type="image/png" class="V7__img"></image>
+                            <h3>Dyson V7</h3>
+                          </div>   
+                          
+                          <div class="products__content" data-name="dc25">
+                            <image src="Code/ProductImage/dc25(1).png" class="dc25__img"></image>
+                            <h3>Dyson ball animal</h3>
+                          </div>     
+                          
+                          <div class="products__content" data-name="V6">
+                            <image src="Code/ProductImage/DysonV6(1).png" class="V6__img"></image>
+                            <h3>Dyson V6</h3>
+                          </div>     
+
+                          <div class="products__content" data-name="dc19">
+                            <image src="Code/ProductImage/dc19Vacuum.png" class="dc19__img"></image>
+                            <h3>Dyson C19 vacuum</h3>
+                          </div>     
+
+                          <div class="products__content" data-name="VC">
+                            <image src="Code/ProductImage/VC1.png" class="VC__img"></image>
+                            <h3>Dyson ball</h3>
+                          </div>     
+
+                          <div class="products__content" data-name="dc26">
+                            <image src="Code/ProductImage/dc26.png" class="dc26__img"></image>
+                            <h3>Dyson ball 26</h3>
+                          </div>     
+                       </div>
+
+                <!--=============== PRODUCTS POP UP ===============-->
+
+                    <div class ="product-popup">
+                        
+                          <div class="popup" data-target="V7">
+                            <i class="fas fa-times"></i>
+                            <image src="Code/ProductImage/V7Vacuum1.png" class="V7__img"></image>
+                            <h3>Dyson V7</h3>
+                            <div class="color grid">
+                                <li><span>Handy</span></li>
+                                <li><span>Cordless</span></li>
+                                <li><span>Multi-purpose</span></li>
+                            </div>
+                            <div class="price">199$</div>
+                            <div class="buttons">
+                              <a href="https://www.dyson.co.uk/vacuum-cleaners/cordless/v8/silver-nickel" target="_blank" class ="buy">buy now</a>
+                              <a href="https://www.dyson.co.uk/vacuum-cleaners" target="_blank" class="learn">learn more</a>
+                            </div>
+                           </div> 
+
+                        <div class="popup" data-target="dc25">
+                            <i class="fas fa-times"></i>
+                            <image src="Code/ProductImage/dc25(1).png" class="dc25__img"></image>
+                         <h3>Dyson ball animal</h3>
+                         <div class="color grid">
+                            <li><span>Extra power</span></li>
+                            <li><span>Cordless</span></li>
+                            <li><span>Mobile</span></li>
+                         </div>
+                         <div class="price">599$</div>
+                         <div class="buttons">
+                           <a href="https://www.dyson.co.uk/vacuum-cleaners/cordless/v8/silver-nickel" target="_blank" class ="buy">buy now</a>
+                           <a href="https://www.dyson.co.uk/vacuum-cleaners" target="_blank" class="learn">learn more</a>
+                         </div>
+                        </div> 
+
+                        <div class="popup" id="V6vacuum" data-target="V6">
+                            <i class="fas fa-times"></i>
+                            <image src="Code/ProductImage/DysonV6(1).png" class="V6__img"></image>
+                         <h3>Dyson V6</h3>
+                         <div class="color grid">
+                            <li><span>Simple</span></li>
+                            <li><span>Effective</span></li>
+                            <li><span>Inexpensive</span></li>
+                        </div>
+                         <div class="price">299$</div>
+                         <div class="buttons">
+                           <a href="https://www.dyson.co.uk/vacuum-cleaners/cordless/v8/silver-nickel" target="_blank" class ="buy">buy now</a>
+                           <a href="https://www.dyson.co.uk/vacuum-cleaners" target="_blank" class="learn">learn more</a>
+                         </div>
+                        </div> 
+
+                        <div class="popup" data-target="dc19">
+                            <i class="fas fa-times"></i>
+                            <image src="Code/ProductImage/dc19Vacuum.png" class="dc19__img"></image>
+                         <h3>Dyson C19</h3>
+                         <div class="color grid">
+                            <li><span>Stylish</span></li>
+                            <li><span>Up to the task</span></li>
+                            <li><span>Efficient</span></li>
+                        </div>
+                         <div class="price">499$</div>
+                         <div class="buttons">
+                           <a href="https://www.dyson.co.uk/vacuum-cleaners/cordless/v8/silver-nickel" target="_blank" class ="buy">buy now</a>
+                           <a href="https://www.dyson.co.uk/vacuum-cleaners" target="_blank" class="learn">learn more</a>
+                         </div>
+                        </div> 
+
+                        <div class="popup" data-target="VC">
+                            <i class="fas fa-times"></i>
+                             <image src="Code/ProductImage/VC1.png" class="VC__img"></image>
+                         <h3>Dyson ball</h3>
+                         <div class="color grid">
+                            <li><span>Strongest suction</span></li>
+                            <li><span>Mobile</span></li>
+                            <li><span>Multi-purpose</span></li>
+                        </div>
+                         <div class="price">599$</div>
+                         <div class="buttons">
+                           <a href="https://www.dyson.co.uk/vacuum-cleaners/cordless/v8/silver-nickel" target="_blank" class ="buy">buy now</a>
+                           <a href="https://www.dyson.co.uk/vacuum-cleaners" target="_blank" class="learn">learn more</a>
+                         </div>
+                        </div> 
+
+                        <div class="popup" id="dc25vacuum" data-target="dc26">
+                            <i class="fas fa-times"></i>
+                            <image src="Code/ProductImage/dc26.png" class="dc26__img"></image>
+                         <h3>Dyson ball 26</h3>
+                         <div class="color grid">
+                            <li><span>Extra reach</span></li>
+                            <li><span>Cordless</span></li>
+                            <li><span>Low maintenance</span></li>
+                         </div>
+                         <div class="price">699$</div>
+                         <div class="buttons">
+                           <a href="https://www.dyson.co.uk/vacuum-cleaners/cordless/v8/silver-nickel" target="_blank" class ="buy">buy now</a>
+                           <a href="https://www.dyson.co.uk/vacuum-cleaners" target="_blank" class="learn">learn more</a>
+                         </div>
+                        </div> 
+                    </div>
+                    </section>
+            <!--=============== CONTACTS ===============-->
+            <section class="contacts section">
+                <div class="contactbox">
+                    <form>
+                        <h1>Contact dyson</h1>
+                        <input type="text" id="firstName" placeholder="First Name" required>
+                        <input type="text" id="lastName" placeholder="Last Name" required>
+                        <input type="email" id="email" placeholder="Email" required>
+                        <input type="text" id="mobile" placeholder="Mobile" required>
+                        <input type="submit" value="Send" id="button">
+                    </form>
+                </div>
+            </section>
+        <!--=============== FOOTER ===============-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <a href="#" class="footer__logo">
+                    <img src="assets/img/logo.png" alt="">
+                </a>    
+                <div class="footer__content">
+                    <h3 class="footer__title">Products</h3>
+    
+                    <ul class="footer__links">
+                        <li>
+                            <a href="https://www.dyson.co.uk/vacuum-cleaners" target="_blank" class="footer__link">Vacuum cleaners</a>
+                        </li>
+                        <li>
+                            <a href="https://www.dyson.co.uk/hair-care/hair-straighteners/corrale" target="_blank" class="footer__link">Hairwrap</a>
+                        </li>
+                        <li>
+                            <a href="https://www.dyson.co.uk/air-treatment" target="_blank" class="footer__link">Airfilter</a>
+                        </li>
+                        <li>
+                            <a href="https://www.dyson.co.uk/hair-care/hair-dryers/supersonic" target="_blank" class="footer__link">Hairdryer</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="footer__content">
+                    <h3 class="footer__title">Support</h3>
+    
+                    <ul class="footer__links">
+                        <li>
+                            <a href="https://www.dyson.vn/en-VN/support/contact-us" target="_blank" class="footer__link">Contact us</a>
+                        </li>
+                        <li>
+                            <a href="https://www.dyson.vn/en-VN/support/support" target="_blank" class="footer__link">Support</a>
+                        </li>
+                        <li>
+                            <a href="https://www.dyson.vn/en-VN/footer-primary-links/warranty-service" target="_blank" class="footer__link">Warranty</a>
+                        </li>
+                        <li>
+                            <a href="https://www.dyson.com/inside-dyson/terms/returns-policy" target="_blank" class="footer__link">Policies</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="footer__content">
+                    <form action="" class="footer__form">
+                        <input type="email" placeholder="Email" class="footer__input">
+                        <button class="button button--flex">
+                            <i class="ri-send-plane-line button__icon"></i> Subscribe
+                        </button>
+                    </form>
+    
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="footer__copy">
+                <a href="#" target="_blank" class="footer__copy-link">&#169; DNCT. All right reserved</a>
+            </p>
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-s-line scrollup__icon"></i>
+        </a>
+        
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="Code/MidTerm.js"></script>
+    </body>
+</html>
